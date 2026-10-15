@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ********************************************** Start Home Section ************************************* */
+
+/* -------------------------------------- Nav Bar ------------------------------------------- */
+.nav img{
+    width: 12%;
+    margin: 1% 0 0 9%;
+}
+
+.nav  ul{
+    float: right;
+    
+    margin-top: 1.3%;
+    margin-right: 5%;
+}
+.nav li  {
+    float: left;
+   padding-right: 20px;
+
+  list-style-type: none;
+   
+}
+.nav  li a {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+   
+  
+    
+}
+
+/* -------------------------------------------End Nav Bar---------------------------------------- */
+
+/* ______________________________________ Home Content ______________________________________________________________ */
+
+.home{
+    width: 100%;
+    height:100vh;
+     background-image: url('../images/drew-coffman-1872.jpg');
+     background-size: 100% 100%;
+    
+}
+.content{
+    text-align: center;
+    margin-top: 10.5%;  
+
+}
+.content h2 , .content p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+   
+    
+}
+.content h1 {
+    font-size:76px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 3px ;
+    margin-bottom: 0;
+    font-weight: 120;
+    color: white;
+}
+.content p{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.home  .content button{
+    padding: 20;
+    margin: 8 ;
+    border-radius: 7%;
+    border: none;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home  .content .learn{
+    background-color: #83654d;
+    color: white;
+}
+.home .content .learn:hover , .home  .content .contact:hover{
+    background-color: white;
+    color: black;
+    
+
+}
+.home  .content .contact{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    
+}
+.home  .content .box{
+    width: 3%;
+    height: 6%;
+    margin-top: 7% ;
+    margin-left: 49%;
+    text-align: center;
+    border-radius: 51%;
+    border: 2px solid white;
+}
+
+/* _____________________________________________ End Home Content __________________________________________________ */
+
+/* ***************************************************   End Home Section *************************************************/
+
+/*  ______________________________________  Who WE Are Section & Contact Location Section _________________________________________ */
+
+.who{
+    padding: 8%;
+}
+.who img{
+    width: 45%;
+}
+.who .we1{
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 6%;
+    margin-left: 5%;
+ 
+
+}
+.who .we2{
+    width: 100%;
+   
+}
+.who .we2 img {
+    width: 8%;
+}
+.who .we1 h2{
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    margin-bottom: 4%;
+}
+.who .we1 p , .who .we2 p  , .who .we1 .pcontact{
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    color: RGB(104, 104, 104);
+    
+}
+.who .we1 p{
+    margin-bottom: 5%;
+}
+.who .we2 p {
+display: inline-block;
+vertical-align: top;
+margin-top: 1.5%;
+}
+
+/*  ________________________________________ End Who We Are Section  & Contact location Section_____________________________________ */
+
+/* ______________________________________________ Our location Section _________________________________________________________ */
+.location{
+    background-color: #F8F8F8;
+    width: 100%;
+}
+.full{
+     padding: 6%;
+    box-sizing: border-box;
+}
+.location  .full .text{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.location  .full img{
+    width: 43%;
+    display: inline-block;
+    padding-left: 2%;
+   
+}
+.location  .full .text {
+    margin-top: 5%;
+    margin-left: 3%;
+    padding: 2%;
+}
+.location  .full .text h2 , .who .we1 .inform{
+    font-size: 32px;
+    color: #303030;
+    margin-bottom: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+
+  
+}
+.location  .full .text p{
+    font-size: 15px;
+    color: #686868;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* _____________________________________________ End  Our location Section _______________________________________________________ */
+
+/* ________________________________________________ End  Baking  Section _________________________________________________________ */
+.clr{
+    clear: both;
+}
+.baking{
+   
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+   
+}
+.baking h2{
+    font-size: 33px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    color:rgb(48, 48, 48);
+}
+.baking .prg ,.baking p {
+    font-size: 14px;
+    color: #686868;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2%;
+    
+}
+.baking .prg2{
+    padding-top: 4%;
+}
+.baking .bake_meal{
+    width: 33.33%;
+    
+    float: left;
+    box-sizing: border-box;
+    padding: 2%;
+    
+}
+.baking .bake_meal img{
+    width: 100%;
+}
+.baking h3{
+    font-size: 22px;
+    color: #303030;
+    margin-top: 6%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+}
+/* _______________________________________________ End  Baking Section _________________________________________________________ */
+
+/* ______________________________________________ Contact location Section Style_________________________________________________ */
+.contact{
+    background-color: F8F8F8;
+}
+
+/* _____________________________________________ End Contact location Section Style______________________________________________ */
+
+/* __________________________________________________  Footer  Section _________________________________________________________ */
+.footer{
+    background-color: #403D38;
+    width: 100%;
+}
+.footer1{
+    width: 85%;
+    margin: auto;
+    padding: 2%;
+   
+}
+.footer .footer1 .about ,
+ .footer .footer1 .special ,
+ .footer .footer1 .Opening ,
+ .footer .footer1 .conact_details{
+    width: 25%;
+    float: left;
+    padding: 2%;
+     box-sizing: border-box;
+    
+}
+.footer  .footer1 .Opening img ,
+ .footer  .footer1 .special img  ,
+ .footer .footer1 .conact_details img {
+    width: 8%;
+}
+.footer .footer1 .conact_details img {
+    width: 13%;
+    padding-right: 2%;
+}
+.footer .footer1 .conact_details .de1 p{
+    margin-top: 3%;
+    line-height: 1.1;
+}
+
+
+.footer .footer1 .special .de1 ,.footer .footer1 .special .de1 img 
+,.footer .footer1 .opening .de1 ,.footer .footer1 .opening img
+,.footer .footer1 .conact_details .de1 ,.footer .footer1 .conact_details img
+{
+   
+   float: left;
+}
+.footer .footer1  .de1 {
+    
+    margin-top: 3%;
+    margin-bottom: 3%;
+   
+}
+.footer .footer1  h3{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    margin-bottom: 9%;
+    
+}
+.footer .footer1  p, .footer .footer1  a{
+    color: #969696;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 9%;
+}
+.footer .footer1  .conact_details .de1 .anchor{
+   padding-bottom: 5%;
+     margin: 3%;
+}
+.footer .footer1  .conact_details .de1 a{
+    text-decoration: none;
+     margin: 3%;
+}
+
+.line{
+    height: 0.25px;
+    background-color: #969696;
+    width:90%;
+    margin: auto;
+   opacity: 0.2;
+    
+}
+.footer .footer1 .conact_details{
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat ;
+    background-position: center;
+    opacity: 0.7;
+    
+   
+}
+.footer2{
+    text-align: center;
+    background-color: #353330;
+    width: 100%;
+    padding-top:5%;
+   
+}
+.footer2 .media{
+    width: 100%;
+    padding-bottom: 6%;
+    
+}
+
+.footer2 footer{
+    font-size:15px ;
+    color: #777777;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    margin-top: 2%;
+
+}
+.footer2 .social{
+    width: 13%;
+    background-color: #745f3c;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-left: 43%;
+    background-color: #969696;
+    
+
+}
+.footer2 .social img{
+    width:20% ;
+    height: 5.2%;
+    background-color: #514e4a;
+    float: left;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+
+
+
+
+/* __________________________________________________   End Footer  Section _____________________________________________________ */
+
+
+
+
+
+
+
+
